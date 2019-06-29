@@ -48,7 +48,6 @@
   <ItemGroup>
     <Compile Include="Business\MicroondasBusiness.cs" />
     <Compile Include="Business\txtBusiness.cs" />
-    <Compile Include="Business\validationsBusiness.cs" />
     <Compile Include="Views\frmMicroondas.cs">
       <SubType>Form</SubType>
     </Compile>

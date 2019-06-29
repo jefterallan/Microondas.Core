@@ -7,6 +7,7 @@ namespace Microondas.Core.Business
     {
         private string _time = "";
         private int _power = 0;
+        public int step = 0;
 
         public string addNumber(object sender, RichTextBox r)
         {
@@ -64,21 +65,22 @@ namespace Microondas.Core.Business
         }
         
         //limpa os dados da tela
-        public void clean(RichTextBox t, RichTextBox p, ProgressBar pr, Label l, Timer timer)
+        public void clean(RichTextBox t, RichTextBox p, ProgressBar pr, Label lag, Timer timer, Label laq)
         {
             _time = ""; //limpar variavel _time
             _power = 0;//limpar variavel _power
             t.Clear();//limpar RichTextBox time
-            p.Clear();//limpar RichTextBox potencia
+            p.Text = "1";//limpar RichTextBox potencia
             pr.Value = 0;//limpar ProgressBar tempo
-            l.Text = "Aguarde";//limpar Label Aguarde
+            lag.Text = "Aguarde";//limpar Label Aguarde
             timer.Enabled = false;//limpar Label Aguarde
+            laq.Text = "Aquecer";//limpar Label Cozinhando
         }
 
         //adiciona potencia
         public string addPower(string p)
         {
-            p = (p == "") ? "0" : p;//if ternario para verificar se a string é vazia
+            p = (p == "" || p == "Pot") ? "0" : p;//if ternario para verificar se a string é vazia
 
             if (Convert.ToInt32(p) == 10)//verifica se a potencia esta no maximo (10), se sim reseta pra 1
                 _power = 1;
@@ -116,6 +118,30 @@ namespace Microondas.Core.Business
             }
 
             return true;
+        }
+
+        public void firstStep(RichTextBox r)
+        {                           
+            r.Text = "Tempo";
+            step = 1;
+        }
+
+        public void secondStep(RichTextBox p)
+        {
+            p.Text = "Pot";
+            step = 2;
+        }
+
+        public void thirdStep(RichTextBox t)
+        {
+            t.Text = "Nome";
+            t.ReadOnly = false;
+            step = 3;
+        }
+
+        public void fourthStep(RichTextBox t)
+        {
+            t.ReadOnly = true;
         }
     }
 }

@@ -8,3 +8,13 @@ D:\Jefter\Documents\Visual Studio 2019\Projects\Microondas.Core\Microondas.Core\
 D:\Jefter\Documents\Visual Studio 2019\Projects\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.exe
 D:\Jefter\Documents\Visual Studio 2019\Projects\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.pdb
 D:\Jefter\Documents\Visual Studio 2019\Projects\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.frmMicroondas.resources
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\bin\Debug\Microondas.Core.exe.config
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\bin\Debug\Microondas.Core.exe
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\bin\Debug\Microondas.Core.pdb
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.csprojAssemblyReference.cache
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.Properties.Resources.resources
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.frmMicroondas.resources
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.csproj.GenerateResource.cache
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.csproj.CoreCompileInputs.cache
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.exe
+C:\Users\jefte\GitHub\Microondas.Core\Microondas.Core\obj\Debug\Microondas.Core.pdb
